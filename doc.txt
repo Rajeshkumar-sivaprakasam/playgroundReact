@@ -1,0 +1,6 @@
+    1. How to add tailwind?
+        - You can use tailwind in dev deps because while build any 
+          how browser will get css version.
+        - yarn add -D tailwindcss @tailwindcss/vite
+        - vite.config.ts add tailwindcss() in plugins
+        - import @import "tailwindcss"; in app.css
