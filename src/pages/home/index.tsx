@@ -1,10 +1,10 @@
+import Counter from "@shared/components/counterComponent";
 import React from "react";
 
 const Home = () => {
   return (
     <div>
-      <h1>helo</h1>
-      Home
+      <Counter />
     </div>
   );
 };
